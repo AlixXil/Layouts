@@ -1,0 +1,60 @@
+@import "../libs/slick/slick.css";
+@import "../libs/slick/slick-theme.css";
+.main {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.slider {
+
+  &__item {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow: hidden;
+  }
+
+  &__info {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    max-width: 40%;
+
+    @media (max-width: $sm-max) {
+      max-width: 80%;
+    }
+  }
+
+  &__title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+    margin: 0;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    line-height: 1.8rem;
+    box-shadow: 0 0 20px 30px rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.5);
+
+    border-radius: 15px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4.5rem;
+    background-color: #ffc822;
+    background: linear-gradient(to right top, #e99933, #ffc822);
+    color: #fff;
+    border-radius: 4.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

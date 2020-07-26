@@ -1,0 +1,50 @@
+block var
+
+<!DOCTYPE html>
+html(lang="ru")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	link(rel="stylesheet", href="./css/style.css")
+	title #{pageName}
+body
+	.basket
+		.container
+			.basket-row
+				a(href="#").basket-row__link Где купить?
+				a(href="#").basket-row__link 
+					i.icon-direction
+					| Москва
+				.basket-row__link.basket-row__link-w
+				a(href="#").basket-row__link 
+					i.icon-basket
+					| Корзина
+	
+	.main-nav
+		.container
+			.nav-row
+				.menu-button
+					span
+					span
+					span
+
+				a(href="/").logo
+					img(src="img/logo.png")
+
+				include ../_partianHtml/main-nav.pug
+
+				.phone
+					a(href="tel:+79121086428").phone__number +7 (912) 108-64-28
+					span.phone__time Ежедневно с 9:00 до 22:00
+
+				a(href="#").main-nav__basket
+					i.icon-basket
+
+	include ../_partianHtml/main-slider.pug
+
+
+
+
+	block content
+
+	block footer

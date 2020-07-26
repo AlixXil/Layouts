@@ -1,0 +1,44 @@
+/*slider*/
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0;
+}
+.slick-dots {
+  bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots li {
+  width: 0;
+  min-width: 10px;
+
+  transition: .5s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots li button {
+  background: #fff;
+  border-radius: 5px;
+
+  width: 10px;
+  height: 10px;
+  padding: 2px;
+
+  transition: all .5s;
+}
+.slick-dots li.slick-active {
+  width: 40px;
+}
+.slick-dots li.slick-active button {
+  background-color: #ffc822; 
+  background: linear-gradient(to right top, #e99933, #ffc822);
+  width: 30px;
+  transition: .5s;
+}
+.slick-dots li button:before {
+  content: '';
+}

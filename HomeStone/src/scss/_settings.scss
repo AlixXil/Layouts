@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Gotham pro";
+  src: url("../fonts/GothamPro.eot") format("eot");
+  src: url("../fonts/GothamPro.woff") format("woff");
+  src: url("../fonts/GothamPro.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 10px;
+
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,230 @@
+extend layout/main
+
+block var
+	- var pageName = 'Home Stone Главная страница';
+
+block content
+	//- hits 
+	.hits
+		.container
+			.hits__header
+				h2.title Хиты продаж
+				.hits__button
+					a(href="#").hits__button-active За месяц
+					a(href="#") За неделю
+			.hits__slider
+				.slide 
+					.slide__header
+						span Столешнца
+						h5 Черная галька
+					.slide__img
+						.slide__info
+							.slide__text
+								span 
+									strong Размер: 
+									| 2 метра
+								span 
+									strong Материал: 
+									|какой-то
+						img(src="./img/sales/1.jpg", alt="Черная галька")
+					.slide__footer
+						.price 12 000 руб.
+						i.icon-basket.icon-basket-active
+				.slide 
+					.slide__header
+						span Столешнца
+						h5 Черная галька
+					.slide__img
+						.slide__info
+							.slide__text
+								span 
+									strong Размер: 
+									| 2 метра
+								span 
+									strong Материал: 
+									|какой-то
+						img(src="./img/sales/2.jpg", alt="Черная галька")
+					.slide__footer
+						.price 15 000 руб.
+						i.icon-basket
+				.slide 
+					.slide__header
+						span Столешнца
+						h5 Черная галька
+					.slide__img
+						.slide__info
+							.slide__text
+								span 
+									strong Размер: 
+									| 2 метра
+								span 
+									strong Материал: 
+									|какой-то
+						img(src="./img/sales/3.jpg", alt="Черная галька")
+					.slide__footer
+						.price 35 000 руб.
+						i.icon-basket
+				.slide 
+					.slide__header
+						span Столешнца
+						h5 Черная галька
+					.slide__img
+						.slide__info
+							.slide__text
+								span 
+									strong Размер: 
+									| 2 метра
+								span 
+									strong Материал: 
+									|какой-то
+						img(src="./img/sales/4.jpg", alt="Черная галька")
+					.slide__footer
+						.price 110 000 руб.
+						i.icon-basket
+				.slide 
+					.slide__header
+						span Столешнца
+						h5 Черная галька
+					.slide__img
+						.slide__info
+							.slide__text
+								span 
+									strong Размер: 
+									| 2 метра
+								span 
+									strong Материал: 
+									|какой-то
+						img(src="./img/sales/4.jpg", alt="Черная галька")
+					.slide__footer
+						.price 110 000 руб.
+						i.icon-basket
+
+	//- почему выбирают нас
+	.why
+		.container
+			h2.title Почему выбирают нас
+			.why__list
+				.why__item
+					img.why__img(src="./img/icon/1.png", alt="")
+					h5.why__title Общение с клиентами
+					p.why__text Мы уделяём большое значение обшению с клиентами. Интересно отметить, что жизнь нетривиальна. Согласно мнению известных философов.
+				.why__item
+					img.why__img(src="./img/icon/2.png", alt="")
+					h5.why__title Общение с клиентами
+					p.why__text Мы уделяём большое значение обшению с клиентами. Интересно отметить, что жизнь нетривиальна. Согласно мнению известных философов.
+				.why__item
+					img.why__img(src="./img/icon/3.png", alt="")
+					h5.why__title Общение с клиентами
+					p.why__text Мы уделяём большое значение обшению с клиентами. Интересно отметить, что жизнь нетривиальна. Согласно мнению известных философов.
+				.why__item
+					img.why__img(src="./img/icon/4.png", alt="")
+					h5.why__title Общение с клиентами
+					p.why__text Мы уделяём большое значение обшению с клиентами. Интересно отметить, что жизнь нетривиальна. Согласно мнению известных философов.
+
+	//- всегда на связи
+	.callback
+		.container
+			h2.title Всегда на связи
+			form(action="#").callback__form
+				input(type="text", name="user_name", placeholder="Ваше имя").callback__name
+				input(type="text", name="user_phone", placeholder="Ваш телефон").callback__phone
+				input(type="submit", value="Заказать звонок").callback__submit 
+			p.callback__text Нужно уточнить детали по поводу заказа или не можете найти нужный товар - <br>оставьте нам свои данные и наш оператор свяжется с вами в течение 1 часа и ответит на все интересуюшие вопросы.
+
+	//- наши работы
+	.work
+		.container
+			h2.title Наши выполненые работы
+			.work__wrapper
+				.work__item
+					img(src="./img/work/1.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/2.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/3.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/4.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+
+				.work__item
+					img(src="./img/work/5.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/6.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/7.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия
+				.work__item
+					img(src="./img/work/8.jpg", alt="Камин из камня").work__img
+					.work__info
+						h5.work__title Камин из камня
+						p.work__text Цена клика, суммируя приведенные примеры, неоднозначна. Более того, департамент маркетинга и продаж индуцирует типичный принцип восприятия						
+
+	.faqs
+		.container
+			h2.title Часто задаваемые вопросы
+			.faqs__wrapper
+				.faq
+					.faq__title 
+						.question__arrow
+						|Вопрос
+					.faq__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi sequi aspernatur fugiat animi itaque optio soluta quod facilis voluptates.
+				.faq
+					.faq__title 
+						.question__arrow
+						|Вопрос
+					.faq__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi sequi aspernatur fugiat animi itaque optio soluta quod facilis voluptates.
+				.faq
+					.faq__title 
+						.question__arrow
+						|Вопрос
+					.faq__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi sequi aspernatur fugiat animi itaque optio soluta quod facilis voluptates.
+				.faq
+					.faq__title 
+						.question__arrow
+						|Вопрос
+					.faq__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora modi sequi aspernatur fugiat animi itaque optio soluta quod facilis voluptates.
+				.faq
+					.faq__title 
+						.question__arrow
+						|Вопрос
+					.faq__text   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus eligendi aperiam, ullam iste, nesciunt asperiores eos sapiente magni quo et ex id vitae, similique adipisci maiores possimus autem facere. Nam facilis nisi, commodi officia quisquam aliquid illum facere odio, labore quo optio maiores in, et vel iure recusandae, voluptas vitae.
+
+	.contacts.container
+		.container
+			h2.title Контакты и адрес
+			.contacts__info
+				p
+					strong Адрес: 
+					| Москва, Фабричная улица, дом 5
+				p
+					strong Телефон: 
+					| +7 (912) 108-64-28
+				p
+					strong Email: 
+					| stonehouse@mail.ru
+				p
+					strong Telegram: 
+					| t.me.stonehouse
+
+
+block footer
+	include _partianHtml/_footer.pug

@@ -1,0 +1,406 @@
+// блок хиты продаж
+.hits {
+	background-color: $gray-bg;
+	padding-bottom: $block-padding-bottom;
+
+	display: flex;
+	justify-content: space-between;
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media (max-width: $md-max) {
+			flex-wrap: wrap;
+		}
+	}
+	& .title {
+		flex-basis: 80%;
+	}
+
+	&__button {
+		width: 100%; 
+		display: flex;
+		justify-content: flex-end;
+		
+		& a {
+			font-size: 1.4rem;
+			padding: 10px 20px;
+			font-weight: 700;
+			text-decoration: none;
+		}
+		&-active {
+			border: 3px solid $yellow;
+			border-radius: 3rem;
+			border-color: $base-color-gradient;
+		}
+
+		@media (max-width: $md-max) {
+			justify-content: center;
+			align-items: center;
+			padding-bottom: 2rem;
+		}
+	}
+
+	&__slider {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: 0 10px;
+	}
+}
+
+.slide {
+	font-size: 1.1rem;
+	background-color: $white-bg;
+	padding: 15px;
+	margin: 10px 10px;
+
+	&__header h5 {
+		font-size: 1.6rem;
+	}
+	&__img {
+		position: relative;
+
+		& img {
+			width: 100%;
+		}
+	}
+	&__info {
+		opacity: 0;
+		transition: all .5s;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		background-color: rgba(255,255,255,0.6);
+	}
+	&__text {
+		position: absolute;
+		bottom: 5rem;
+
+		& span {
+			display: block;
+			padding: 5px;
+		}
+	}
+
+	&:hover {
+		box-shadow: 0 0 10px 0 rgba(#000,.1);
+
+		.slide__info {
+			opacity: 1;
+		}
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		& .price {
+			font-size: 1.4rem;
+			font-weight: 700;
+		}
+
+		& .icon-basket {
+			color: $gray;
+
+			&-active {
+				color: $yellow;
+			}
+		}
+	}
+
+	// стрелки для слайдера
+	&__arrow-prev, &__arrow-next {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: $base-color-gradient;
+
+		min-width: 3rem;
+		min-height: 6rem;
+
+		z-index: 2;
+
+		&:before {
+			content: '';
+			display: block;
+			width: 1rem;
+			height: 1rem;
+
+			border: 3px solid transparent;
+			border-left: 3px solid #fff;
+			border-top: 3px solid #fff;
+		}
+	}
+	&__arrow-prev {
+		margin-right: -10px;
+		border-radius: 15rem 0 0 15rem;
+
+		&:before {
+			margin-right: -10px;
+			transform: rotate(-45deg);
+		}
+	}
+	&__arrow-next {
+		margin-left: -10px;
+		border-radius: 0 15rem 15rem 0;
+
+		&:before {
+			margin-left: -10px;
+			transform: rotate(135deg);
+		}
+	}
+}
+.slide-catalog {
+	min-width: 280px;
+	flex: 1 0 0;
+
+	@media (max-width: $md-max){
+		min-width: 150px;
+	}
+}
+
+// блок why 
+.why {
+	padding-bottom: $block-padding-bottom;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+
+		@media (max-width: $md-max) {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		margin: 15px;
+
+		@media (max-width: $md-max) {
+			flex-basis: 45%;
+		}
+		@media (max-width: $sm-max) {
+			flex-basis: 80%;
+		}
+	}
+	&__title {
+		text-align: center;
+		font-size: 1.6rem;
+		margin: 30px 0;
+	}
+	&__text {
+		font-size: 1.3rem;
+		line-height: 1.5;
+		text-align: center;
+	}
+}
+
+.callback {
+	background: $gray-bg;
+	padding-bottom: $block-padding-bottom;
+
+	&__form {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: 3rem 3rem;
+		background-color: #fff;
+		border-radius: 6rem;
+
+		@media (max-width: $md-max) {
+			flex-direction: column;
+		}
+		@media (max-width: $max-width) {
+			margin: 0 2rem;
+		}
+	}
+	&__name, &__phone, &__submit {
+		font-size: 1.6rem;
+		padding: 1rem 2rem;
+
+		border-radius: 4rem;
+		margin: 0 2rem;
+		width: 30%;
+
+		@media (max-width: $md-max) {
+			margin: 1rem 0;
+			width: 100%;
+		}
+	}
+	&__name, &__phone {
+		border: 3px solid $yellow;
+	}
+	&__submit {
+		background: $base-color-gradient;
+		color: #fff;
+		border: none;
+
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	&__text {
+		font-size: 1.4rem;
+		line-height: 1.5;
+		text-align: center;
+
+		padding-top: 3rem;
+	}
+}
+
+.work {
+	padding-bottom: $block-padding-bottom;
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&__item {
+		max-width: 22%;
+		position: relative;
+		margin: 10px;
+
+		&:hover {
+			.work__info {
+				opacity: 1;
+				box-shadow: 0 0 20px 1px rgba(#000, .2);
+			}
+		}
+		@media (max-width: $md-max) {
+			max-width: 50%;
+		}
+		@media (max-width: $sm-max) {
+			max-width: 80%;
+		}
+	}
+	&__img {
+		width: 100%;
+	}
+	&__info {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+		padding: 1rem;
+		// padding-top: 30%;
+
+		background: rgba(#fff, .8);
+		text-align: center;
+
+		transition: .5s;
+
+		// @media (max-width: $lg-max) {
+		// 	padding-top: 5%;
+		// }
+	}
+	&__title {
+		font-size: 1.6rem;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding: 2rem 0;
+	}
+	&__text {
+		font-size: 1.4rem;
+	}
+}
+
+.faqs {
+	background: $gray-bg;
+	padding-bottom: $block-padding-bottom;
+
+	&__wrapper {}
+}
+
+.faq {
+	margin: 1rem 0;
+
+	&__title {
+		background: $base-color-gradient;
+		color: #fff;
+		border-radius: 3rem;
+
+		padding: 2rem 3rem;
+		padding-right: 3rem;
+		font-size: 1.6rem;	
+		font-weight: 600;
+
+		transition: .5s;
+		position: relative;
+
+		& .question__arrow {
+			position: absolute;
+			right: 2rem;
+			top: 50%;
+			transform: translateY(-50%) rotate(135deg);
+		}
+
+		&.open {
+			border-radius: 3rem 3rem 0 0;
+			.question__arrow {
+				transition: .5s;
+				transform: translateY(-50%) rotate(-45deg);
+			}
+		}
+	}
+	&__text {
+		display: none;
+
+		font-size: 1.4rem;
+		background: #fff;
+		padding: 2rem 3rem;
+
+		border-radius: 0 0 3rem 3rem;
+	}
+
+	@media (max-width: $max-width) {
+			margin: 1rem 2rem;
+		}
+}
+
+.contacts {
+	background: url("../img/map.png");
+	background-size: cover;
+	background-position: top right;
+	max-width: 1700px;
+
+	padding-bottom: $block-padding-bottom;
+	&__info {
+		display: inline-block;
+		padding: 2rem 3rem;
+		margin-left: 2rem;
+
+		background: rgba(#fff, .8);
+		border-radius: 2rem;
+
+		& p, & strong {
+			font-size: 1.4rem;
+		}
+
+		& p {
+			line-height: 2;
+		}
+
+		& strong {
+			font-weight: 700;
+		}
+	}
+}
