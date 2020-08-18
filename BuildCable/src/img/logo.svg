@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 53" width="53" height="53">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #fff;stroke: #0068d9;paint-order:stroke fill markers;stroke-width: 4 } 
+		.txt1 { font-size: 48px;line-height: 36px;fill: #0068d9;font-family: "Aver" } 
+		.txt2 { font-size: 18px;line-height: 36px;fill: #0068d9;font-family: "Aver" } 
+	</style>
+	<g id="header">
+		<g id="logo">
+			<path id="Ellipse 3" class="shp0" d="M26.5 2C40.03 2 51 12.97 51 26.5C51 40.03 40.03 51 26.5 51C12.97 51 2 40.03 2 26.5C2 12.97 12.97 2 26.5 2Z" />
+			<text id="С" style="transform: matrix(1,0,0,1,13,44)" >
+				<tspan x="0" y="0" class="txt1">С</tspan>
+			</text>
+			<text id="К" style="transform: matrix(1,0,0,1,23,34)" >
+				<tspan x="0" y="0" class="txt2">К</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
