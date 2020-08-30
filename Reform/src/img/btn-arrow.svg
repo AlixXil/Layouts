@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="17" height="16">
+	<defs>
+		<image width="11" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAQCAMAAAD3Y3VMAAAAAXNSR0IB2cksfwAAAL1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////40q6kAAAAD90Uk5TELriZQgCAKT/+1MMj+0q080bBCTwnhQGV/xjDo3jXAqq2Ft09Ww3Ejz5/pBIH+dSKKPeWjPyZz4Wt4RFHTAhiAigRAAAAJFJREFUeJwtjucagjAMRYO2NYizalEr4sS993z/x/IWzK9zk3zJIfJyeSGVKyow+8UgDVRi5nJFpCyqCLW6diwbTYSWwRapsO0zd7pWgpXoYRD1YwmWA/BwZDR4DJxMkxn68wXzcrXehIpoi7a328e4cwAeT2crs7+X6+3uJMg+oufrrVMHbT7JV2SeSgf27/wDgF4LZQ68pfkAAAAASUVORK5CYII="/>
+		<image width="6" height="10" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAMAAACg0N8BAAAAAXNSR0IB2cksfwAAAGxQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NhtAPQAAACR0Uk5Tf9lKALH/5S0g38cVR+6ZDiHmyScIuuhYiPuAGa+fAmw1BwQLpiEbGQAAAERJREFUeJwNy0cCQEAUBNGmtcxg5Bzuf0d/VZt6QBCSRKQ4saSZ8oJgWal2YNOq8+gHjZPDrGXdiF2HP+287scA38/4D092AuxJqz9HAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="весь дизайн">
+		<g id="заказ">
+			<use id="prev button copy 3" href="#img1" x="6" y="0" />
+			<use id="prev button copy 4" href="#img2" x="0" y="3" />
+		</g>
+	</g>
+</svg>
