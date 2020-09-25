@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
+	<defs>
+		<image width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAAXNSR0IB2cksfwAAAEhQTFRF/v7+/v7+/////v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+LyUM9QAAABh0Uk5TCQIABhdgXyIw/z/qqjG/gr7TDamWI1DSBUJBEQAAAFRJREFUeJyFzdsSQDAQA9CKtpreFMX//yljsPokb2cy2VWqwyeqR0P8UxtjrR0eOl7xQuMD481EJmSOwpI5zcK8BFbZOnhyfVuH7TzwtiWSe/O3ahxL0gQhGPdb0wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: transparent;stroke: #fefefe;paint-order:stroke fill markers;stroke-opacity:0.5;stroke-width: 2 } 
+	</style>
+	<g id="Шапка">
+		<g id="Верхняя плашка">
+			<g id="Вк">
+				<path id="Shape 13" class="shp0" d="M11 1C16.52 1 21 5.48 21 11C21 16.52 16.52 21 11 21C5.48 21 1 16.52 1 11C1 5.48 5.48 1 11 1Z" />
+				<use id="Layer 360" href="#img1" x="2" y="2" />
+			</g>
+		</g>
+	</g>
+</svg>

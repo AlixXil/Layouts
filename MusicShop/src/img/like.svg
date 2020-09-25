@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 19" width="23" height="19">
+	<defs>
+		<image width="23" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAMAAABMZWaEAAAAAXNSR0IB2cksfwAAAKtQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////R3cTywAAADl0Uk5TAAZwwe3JdAscw//foKHd0CrC/nwRD2773kGJfUjx4VPn+jH5xenlDP2HArptEsvG/MprCcxnA8jAM1moOwAAAN9JREFUeJxlj9mWgjAQRAuMRuIeDDgqYsYNlQSIOvr/XyYHxWVSL327upM+BcBxG4Q0WxQAbTUJabhOiWh7rNPt9dlgiOGA9XvdDvPa5faI+2NABOHkZxIGAhj7fORgymeoNI+iaP7AGZ+CLOijQbyMn0QXBNJDrd8XeRKrNWytV9hsd5a9227gJ3vL3yc+DkeW/rNTdjwASiffgzTRqvoty4MPO8iz50VacPOyDS/qQFCFrAdGFur99qSZW4HL9Onzljrnl7Jc8rPCl0TGzZ/hmbAyanmV2s4OcQtv7+07MOESkxMnLVoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Распродажи">
+		<g id="Наведение">
+			<g id="Действия copy 6">
+				<use id="избранное copy 6" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
