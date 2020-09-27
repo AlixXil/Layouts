@@ -454,6 +454,7 @@ body {
   transition: 0.5s;
   margin-bottom: 30px;
   outline: none;
+  padding-top: 2px;
 }
 
 .item-slider .slide__img {

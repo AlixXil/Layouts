@@ -41,7 +41,8 @@ let { src, dest, watch, series, parallel } = require('gulp'),
   ttf2woff = require('gulp-ttf2woff'),
   ttf2woff2 = require('gulp-ttf2woff2'),
   fonter = require('gulp-fonter'),
-  fs = require('fs')
+  fs = require('fs'),
+  webp = require('gulp-webp');
 
 // обновление браузера
 function browserSync() {
@@ -98,6 +99,8 @@ function images() {
       interlaced: true,
       optimizationLevel: 3
     }))
+    .pipe(dest(path.build.img))
+    .pipe(webp())
     .pipe(dest(path.build.img))
     .pipe(browsersync.stream())
 }
@@ -162,7 +165,7 @@ function fontStyle() {
 function cb() {}
 
 exports.otf2ttf = otf2ttf
-  // подготовка шрифтов
+// подготовка шрифтов
 exports.fonts = fonts
 exports.fontStyle = fontStyle
 
