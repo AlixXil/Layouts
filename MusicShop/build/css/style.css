@@ -345,6 +345,10 @@ body {
           align-items: center;
 }
 
+.header-body__logo img {
+  width: 100%;
+}
+
 .header-body__logo-subtitle {
   font-size: 14px;
   color: #777;
