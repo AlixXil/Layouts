@@ -163,6 +163,78 @@
           transform: rotate(135deg);
 }
 
+.burger-btn {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.burger-btn span {
+  display: block;
+  height: 2px;
+  background: #af9559;
+  width: 80%;
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.burger-btn span:after,
+.burger-btn span:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #af9559;
+  height: 2px;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.burger-btn span:after {
+  bottom: -6px;
+}
+
+.burger-btn span:before {
+  top: -6px;
+}
+
+.burger-btn.active span {
+  height: 0;
+}
+
+.burger-btn.active span:after {
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.burger-btn.active span:before {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -334,7 +406,7 @@ body {
   border-bottom: 2px solid #ef383f;
 }
 
-.main-nav .container {
+.main-nav__list {
   min-height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -881,6 +953,45 @@ footer .container {
   .service {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
+  }
+}
+
+@media (max-width: 750px) {
+  .burger-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .burger-btn__list {
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #f4f3eb;
+    padding: 20px;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    z-index: 6;
+    -webkit-transform: translateX(-150%);
+        -ms-transform: translateX(-150%);
+            transform: translateX(-150%);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .burger-btn__list a {
+    line-height: 2;
+    display: block;
+  }
+
+  .burger-btn.active + .burger-btn__list {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 

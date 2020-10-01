@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preload" href="./css/style.min.css" as="style">
 	<link rel="preload" href="./js/script.min.js" as="script">
-	<link rel="preload" href="./fonts/Roboto.woff" as="font">
+	<link rel="preload" href="./fonts/Roboto.woff" as="font" crossorigin>
 	<link rel="stylesheet" href="./css/style.min.css">
 	<title>Музыкальный арсенал</title>
 </head>
@@ -61,15 +61,20 @@
 	</header>
 	<nav class="main-nav">
 		<div class="container">
-			<a href="#" class="main-nav__link">Акции</a>
-			<a href="#" class="main-nav__link">Музыкальные инструменты</a>
-			<a href="#" class="main-nav__link">DJ</a>
-			<a href="#" class="main-nav__link">Шоу-техника</a>
-			<a href="#" class="main-nav__link">Студия</a>
-			<a href="#" class="main-nav__link">Звук</a>
-			<a href="#" class="main-nav__link">Свет</a>
-			<a href="#" class="main-nav__link">Коммутация</a>
-			<a href="#" class="main-nav__link">Стойки</a>
+			<div class="burger-btn">
+				<span></span>
+			</div><!-- /.burger-btn -->
+			<div class="main-nav__list burger-btn__list">
+				<a href="#" class="main-nav__link">Акции</a>
+				<a href="#" class="main-nav__link">Музыкальные инструменты</a>
+				<a href="#" class="main-nav__link">DJ</a>
+				<a href="#" class="main-nav__link">Шоу-техника</a>
+				<a href="#" class="main-nav__link">Студия</a>
+				<a href="#" class="main-nav__link">Звук</a>
+				<a href="#" class="main-nav__link">Свет</a>
+				<a href="#" class="main-nav__link">Коммутация</a>
+				<a href="#" class="main-nav__link">Стойки</a>
+			</div><!-- /.burger-btn__list -->
 		</div>
 	</nav>
 	<main>

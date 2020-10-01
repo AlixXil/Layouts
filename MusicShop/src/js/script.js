@@ -4,6 +4,9 @@
 /* beautify ignore:end */
 
 document.addEventListener('DOMContentLoaded', () => {
+	$('.burger-btn').on('click', () => {
+		$('.burger-btn').toggleClass('active');
+	});
 	$('#main-slider').slick({
 		arrows: false,
 		dots: true,
