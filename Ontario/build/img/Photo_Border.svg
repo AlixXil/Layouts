@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 88" width="91" height="88">
+	<defs>
+		<image width="91" height="88" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAABYCAMAAACtfHsFAAAAAXNSR0IB2cksfwAAASxQTFRFYbKPYbKP////2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZts7DY7KPtM3B2dnZ2dnZf7ug2dnZ2dnZw9LLZLKQ2dnZ2dnZ2dnZlMKt2dnZ2dnZ0dbUa7WU2dnZ2dnZqMm72dnZ2dnZ2NnYeLmcdrib2dnZ2dnZ2dnZ2dnZhr2l2dnZ2dnZyNPPZrOR2dnZ2dnZm8Sy2dnZY7KP2dnZ09fWb7aX2dnZ2dnZ2dnZrcq9q8q82dnZ2dnZ19jYebmd2dnZ2dnZ2dnZvNDHvdDI2dnZ2dnZ2dnZjMCpjcCp2dnZ2dnZxdLNabSSzdXR2dnZ2dnZnMWzpMi42dnZ2dnZ2dnZrcq9tM3B2dnZ2dnZw6F/NgAAAGR0Uk5T/wAA/zClC3noSL8glPxl1ziuEIDtUf///8fR/yZc//+aAPf/Ao3//2sb/9+7////QES05P8VdP//hgj/9ACY//9bF7D//2cT0/9YBE73//qBY/3/cQOg//+EFN7/+JchwuxwDEgViWYAAAF8SURBVHic7dXXUsJAFAZgMNi7IlFRcEVBUawoKK5gF3vHXt//HTRDSDabo+s4e26c819ldv75ZpNsCQR0JFgHRQtNNtlkk0022WSTTTbZZJNNNtlkk032P7UNKCE8ux5x3g14diPe925C/JfNeHYL4hpsxbPb8PZOO+K+7MCzOxHPky48uxvxHOzBs3vxzu8w4t3QJ9hBJyHxzSImmH55B8oZEO8093HQU4pCdFRFG0OgPewtxeJ+Oh5T0SMMtEelWsJvJ5TTHgPtcbmWTMl0KqmiJxhkT/qLadlOq+gpBtrT/mZmxkvPZlT2HGjPQ1VpHUZU9AID7UWwnBXprIo2lkB7GS7n8i6dz6noFQbZq9/VC65dUNFrDLTFMMadrBdLNbpUdJANzn7Ib+3Nre2avWPD4d2vcR0239svV+myvf4ODrkumx8dV+0TCz49s0f12Pz8wqIvLfrqmuu1+U3FNCu3hnEnjOmy7x9M8/Hp2TOmy+Yvr2/vH/wv9icfxIhftF5J6AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="Testimonals">
+		<g id="testimonals_3_Active_Hover">
+			<use id="Photo_Border" href="#img1" x="0" y="0" />
+			<path id="Photo" class="shp0" d="M3.45 3.45L65.55 3.45L65.55 65.55L3.45 65.55L3.45 3.45Z" />
+		</g>
+	</g>
+</svg>

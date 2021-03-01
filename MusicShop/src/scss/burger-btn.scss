@@ -1,0 +1,89 @@
+$widthToShow: 750px; // порог отображения кнопки
+$widthBtn: 40px; // ширина кнопки
+$heightBtn: 40px; // высота кнопки
+$lineHeight: 2px; //высота линии
+$lineWidth: 80%; //ширина линии
+$btnBg:#f4f3eb; //фон кнопки
+$lineColor:#af9559; //цвет линий
+$lineOffset: 6px; // растояния между линиями
+$listBg: #f4f3eb; //фон списка
+
+.burger-btn {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: $widthBtn;
+	height: $heightBtn;
+	cursor: pointer;
+	transition: 0.5s;
+
+	span {
+		display: block;
+		height: $lineHeight;
+		background: $lineColor;
+		width: $lineWidth;
+		position: relative;
+		transition: 0.5s;
+
+		&:after,
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			background: $lineColor;
+			height: $lineHeight;
+			width: 100%;
+			transition: 0.5s;
+		}
+
+		&:after {
+			bottom: -$lineOffset;
+		}
+
+		&:before {
+			top: -$lineOffset;
+		}
+	}
+
+	&.active {
+		span {
+			height: 0;
+
+			&:after {
+				transform: rotate(-45deg);
+				top: 0;
+				transition: 0.5s;
+			}
+
+			&:before {
+				transform: rotate(45deg);
+				top: 0;
+				transition: 0.5s;
+			}
+		}
+	}
+
+	@media (max-width: $widthToShow) {
+		display: flex;
+
+		&__list {
+			position: absolute;
+			flex-direction: column;
+			background: $listBg;
+			padding: 20px;
+			align-items: stretch;
+			z-index: 6;
+			transform: translateX(-150%);
+			transition: 0.5s;
+
+			& a {
+				line-height: 2;
+				display: block;
+			}
+		}
+
+		&.active+.burger-btn__list {
+			transform: translateX(0);
+		}
+	}
+}

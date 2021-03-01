@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 16" width="8" height="16">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="Header">
+		<g id="social_buttons">
+			<path id="facebook" class="shp0" d="M5.95 3.01L8.01 3.01L8.01 -0.03L5.59 -0.03L5.59 -0.02C2.65 0.08 2.05 1.73 1.99 3.47L1.99 3.47L1.99 4.99L-0.01 4.99L-0.01 7.97L1.99 7.97L1.99 15.97L5 15.97L5 7.97L7.47 7.97L7.95 4.99L5 4.99L5 4.07C5 3.48 5.39 3.01 5.95 3.01Z" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 38" width="32" height="38">
+	<defs>
+		<image width="32" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAmCAMAAACS/WnbAAAAAXNSR0IB2cksfwAAAS9QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////k8q7gQAAAGV0Uk5TyulsAAIXOlFURSMM/5QBX8Hi6uvn0Z9JB/6Rbf38uDWKCODshRj4hhbwPBlw3SeqkgWnIdp/KgQJNPHTvMDY98T1So0DtQ7ywx+IEc+wdn2bxeW2IJAUOw9Yr6FDaY6eiWExl3xa8A87AAABCUlEQVR4nO3R2VLCQBQE0MAY3FoCRiHRiKKi4oIbiKAIKiKGxX1fQPH/v8FUUiGkpsj1A+inqerzMn0FwednbEgMDI+Mjo0zPgIwEWRSKDwpT01HogoPVMywWQ1W5mLzHNCwEF9EN0sSD5YTsgOwInFgdc3XA5BcJwBCGwTAJgW2UgTAdpwA2NklAPb2CYB05iBr1Ie5fgBq/ug4Vjgp9gV2KFAiwOkZAc7L3uCiYn5TvDTemsr31StzB71WqDf05vXN7Z27v3+whnoMik/maMpzpurUSf2F2cA5jfj6VrTq94/u1L2AsUru86vV/v6xD8oBI1ml7Do3B1wZgP8ClQJAxxuk5V9P8AdpnT5JfEIxLAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="About_Us">
+			<use id="flag" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
