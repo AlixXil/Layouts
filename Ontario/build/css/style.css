@@ -28,7 +28,7 @@ header {
   .header__title {
     font-family: Raleway, sans-serif;
     color: #fff;
-    font-weight: 250;
+    font-weight: 200;
     font-size: 38px;
     margin: 7vh 0;
     text-align: center; }
@@ -146,7 +146,7 @@ header {
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 25px;
-  font-weight: 250; }
+  font-weight: 200; }
 
 .subscribe-form {
   display: flex;
@@ -211,7 +211,7 @@ header {
         gap: 40px; } }
   .testimonals__text {
     font-size: 15px;
-    font-weight: 250;
+    font-weight: 200;
     color: #3b3b3b;
     line-height: 25px; }
 
@@ -225,7 +225,7 @@ header {
 
 .slider__text {
   font-size: 15px;
-  font-weight: 250;
+  font-weight: 200;
   color: #3b3b3b;
   line-height: 25px; }
 
