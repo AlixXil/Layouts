@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 38" width="24" height="38">
-	<defs>
-		<image  width="24" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAAAXNSR0IB2cksfwAAAVBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vw/0eQAAAHB0Uk5TACV6t+H3//zuzJpMBQ174/iwOMHtZ/ttEMT6VoPdHS/v2+iLhbxAHyp+9tkawL4Sav1V3PlNwt/nLKGu3ruiA0vxuZQeUqPUvXn0PWgMco02lwK1Pq8GCmT+xxPPXcYOF2nRYFoLREOc6ifigWvNWKKKvHUAAAFOSURBVHicbZJXV8JAEEYHCYMRUCwUQbCCWLFiQQUVGyoqKjYUey///02yjd0k39PMvTm7sycDQOJocmoudDfrLR4vNOJrbUMef3uH4I5OlNMV4FxHNcEQ4eFuNCcSNUSPhSPG4gC9feK7/gFhBgGGeJ1IDqdGRlkzNg4TrJxMG+dO+Wk3PQOztJqbJ5N4M+KsBVosLtHZl5nIwgotXEkqnEyscoFrOYPn11m7wY9C3CxAbkvj3TbsiNm1XT0imj3I2jwcsbgPB7YicwhxzU6U6oMc2XCtUBfHRas4MUYvn1q4/4w81hM0i/MKERcZE3d72E+/vFLFdYWJm6oqbsX+hBR+VxPiPiaLB2kVS9It1bQkwo8N8QRyAoLrNUWE+ZoGn0FN1E2Fs2wSLwnCXa9gzhtZNboSat7r/CNl5fD5hfhtwwF+8NdnK2qJP6n7B9lcKpkP6NRhAAAAAElFTkSuQmCC"/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<g id="Footer">
-		<g id="Adress">
-			<use id="Katman 47" href="#img1" x="0" y="0" />
-		</g>
-	</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="38"><defs><image width="24" height="38" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAmCAMAAADp2asXAAAAAXNSR0IB2cksfwAAAVBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vw/0eQAAAHB0Uk5TACV6t+H3//zuzJpMBQ174/iwOMHtZ/ttEMT6VoPdHS/v2+iLhbxAHyp+9tkawL4Sav1V3PlNwt/nLKGu3ruiA0vxuZQeUqPUvXn0PWgMco02lwK1Pq8GCmT+xxPPXcYOF2nRYFoLREOc6ifigWvNWKKKvHUAAAFOSURBVHicbZJXV8JAEEYHCYMRUCwUQbCCWLFiQQUVGyoqKjYUey///02yjd0k39PMvTm7sycDQOJocmoudDfrLR4vNOJrbUMef3uH4I5OlNMV4FxHNcEQ4eFuNCcSNUSPhSPG4gC9feK7/gFhBgGGeJ1IDqdGRlkzNg4TrJxMG+dO+Wk3PQOztJqbJ5N4M+KsBVosLtHZl5nIwgotXEkqnEyscoFrOYPn11m7wY9C3CxAbkvj3TbsiNm1XT0imj3I2jwcsbgPB7YicwhxzU6U6oMc2XCtUBfHRas4MUYvn1q4/4w81hM0i/MKERcZE3d72E+/vFLFdYWJm6oqbsX+hBR+VxPiPiaLB2kVS9It1bQkwo8N8QRyAoLrNUWE+ZoGn0FN1E2Fs2wSLwnCXa9gzhtZNboSat7r/CNl5fD5hfhtwwF+8NdnK2qJP6n7B9lcKpkP6NRhAAAAAElFTkSuQmCC"/></defs><style/><g id="Footer"><g id="Adress"><use id="Katman 47" href="#img1" x="0" y="0"/></g></g></svg>

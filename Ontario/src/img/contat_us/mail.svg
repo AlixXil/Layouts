@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 30" width="40" height="30">
-	<defs>
-		<image width="40" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAAAXNSR0IB2cksfwAAARFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jDOxHwAAAFt0Uk5T3O3y//Dn+SuY9PWbACWH75AoH4js7pIiUAcbduPlfx3PWAgUd+SAFgRautRqDhNm2NluCWjQ+NoPDG8NC2ffehdXysteEXl4zAXg6IohSp+JHOqaLSf2mSzzxrg4YasAAAEGSURBVHicY2BgJAowMDAxEwWYGBiJU8hIvEIWYhWyEqeQjYGdg5MIdVzcDDw8vHyE3MkvIMgDVMjDIyQsgkeZqJg4UA2DhCRIqZS0DA5lsnLyIAU8DGwKikoghrIKNqWqauogSQ1NLVA4auvognh6+gZoygyNlEESxiamzGaQADc3sQCJWKIoNbSyBgna2GozI8WMnb0DWNTRCarM2cUSJODqZg7mIkWhrDtYqYajM5Dj4eIJdo2KF1QWJa69fXzBSv38JTTAQRGgCpdDSxSiAWClYBDIF4Qkg5F6WIJDwMpCOVDjAEsyCwuP4AkNj0QTxZoew6LQlZGUcEcV4lVIdJFCbCEFAMltJOD5aW8+AAAAAElFTkSuQmCC"/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<g id="Footer">
-		<g id="Adress kopya">
-			<use id="android-mail" href="#img1" x="0" y="0" />
-		</g>
-	</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30"><defs><image width="40" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAAAXNSR0IB2cksfwAAARFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////jDOxHwAAAFt0Uk5T3O3y//Dn+SuY9PWbACWH75AoH4js7pIiUAcbduPlfx3PWAgUd+SAFgRautRqDhNm2NluCWjQ+NoPDG8NC2ffehdXysteEXl4zAXg6IohSp+JHOqaLSf2mSzzxrg4YasAAAEGSURBVHicY2BgJAowMDAxEwWYGBiJU8hIvEIWYhWyEqeQjYGdg5MIdVzcDDw8vHyE3MkvIMgDVMjDIyQsgkeZqJg4UA2DhCRIqZS0DA5lsnLyIAU8DGwKikoghrIKNqWqauogSQ1NLVA4auvognh6+gZoygyNlEESxiamzGaQADc3sQCJWKIoNbSyBgna2GozI8WMnb0DWNTRCarM2cUSJODqZg7mIkWhrDtYqYajM5Dj4eIJdo2KF1QWJa69fXzBSv38JTTAQRGgCpdDSxSiAWClYBDIF4Qkg5F6WIJDwMpCOVDjAEsyCwuP4AkNj0QTxZoew6LQlZGUcEcV4lVIdJFCbCEFAMltJOD5aW8+AAAAAElFTkSuQmCC"/></defs><style/><g id="Footer"><g id="Adress kopya"><use id="android-mail" href="#img1" x="0" y="0"/></g></g></svg>
